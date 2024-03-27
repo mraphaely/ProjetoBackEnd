@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(36, 24, 24);
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+    color: ghostwhite;
+}
+input{  
+  border-radius: 5px;
+  background-color: ghostwhite;
+  font-size: medium;
+  color: black;
+  border: 1px solid ghostwhite;
+}
+#btnUrgencia{
+    border-radius: 5px;
+  background-color: red;
+  font-size: medium;
+  color: ghostwhite;
+  border: 1px solid ghostwhite;
+}
+#btnAtender{
+border-radius: 5px;
+  background-color: blue;
+  font-size: medium;
+  color: ghostwhite;
+  border: 1px solid ghostwhite;
+}
+#btnAdicionar{
+    border-radius: 5px;
+    background-color: green;
+    font-size: medium;
+    color: ghostwhite;
+    border: 1px solid ghostwhite;
+}

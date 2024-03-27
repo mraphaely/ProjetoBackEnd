@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+    color: ghostwhite;
+}
+input{  
+  border-radius: 5px;
+  background-color: gray;
+  font-size: medium;
+  color: ghostwhite;
+  border: 1px solid ghostwhite;
+}
+#btnAdicionar{
+    background-color: green;
+    color: ghostwhite;
+    border: 1px solid ghostwhite;
+}
