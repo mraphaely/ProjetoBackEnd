@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concurso V</title>
+</head>
+ <style>
+    body{ 
+        background-color: black;
+        color: ghostwhite;
+        text-align: center;
+    }
+    input{
+        border-radius: 5px;
+        margin: 5.5px;
+    }
+    #btnAprovados{
+        background-color: green;
+        color: ghostwhite;
+    }
+ </style>
+
+<body>
+<hr> 
+<hr> 
+    <h2>Concurso V</h2>
+   
+<hr>    
+        <p>Candidato:
+            <input type="text" id="inCandidato" placeholder="Digite um candidato..." autofocus><br>
+        
+        Nota:
+            <input type="text" id="inNota" placeholder="Digite a nota do candidato..." autofocus><br>
+
+            <input type="button" id="btnAdicionar" class="btns" value="Adicionar dados">
+            <input type="button" id="btnAprovados" class="btns" value="Aprovados 2ª fase">
+        </p>
+<hr>        
+
+    <pre id="outAprovados"></pre>
+<hr>
+    <script src="./app.js"></script>
+</body>
+
+</html>
