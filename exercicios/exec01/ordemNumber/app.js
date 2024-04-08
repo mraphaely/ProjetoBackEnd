@@ -19,7 +19,7 @@ const adicionarNumero = () => {
         alert('Digite um número diferente')
     }
 
-    outNumero.innerHTML = `${numeros.join(', ')}`;
+    outNumero.innerHTML = `Números: ${numeros.join(', ')}`;
     inNumero.value = '';
     inNumero.focus()
 };

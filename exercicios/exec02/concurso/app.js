@@ -17,7 +17,7 @@ const Adicionar = () => {
     const addCandidato = inCandidato.value
     const addNota =  inNota.value
 
-    if (addCandidato === '' || addNota ==='' || isNaN(addNota) || addNota <= 0) {
+    if (addCandidato === '' || addNota ==='' || isNaN(addNota) || addNota < 0) {
         alert('Digite os valores corretos')
         return
     }
